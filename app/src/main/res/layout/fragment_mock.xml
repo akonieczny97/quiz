@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adroid="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/question_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        adroid:layout_constraintEnd_toEndOf="parent"
+        adroid:layout_constraintStart_toStartOf="parent"
+        adroid:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/question_number" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/question_background"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        adroid:layout_constraintEnd_toEndOf="parent"
+        adroid:layout_constraintHorizontal_bias="0.498"
+        adroid:layout_constraintStart_toStartOf="parent"
+        adroid:layout_constraintTop_toBottomOf="@+id/question_number"
+        tools:text="@string/question" />
+
+    <ImageButton
+        android:id="@+id/next_question_button"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        adroid:layout_constraintBottom_toBottomOf="parent"
+        adroid:layout_constraintEnd_toEndOf="parent"
+        android:background="@mipmap/ic_next" />
+
+    <ImageButton
+        android:id="@+id/check_answer_button"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        adroid:layout_constraintBottom_toBottomOf="parent"
+        adroid:layout_constraintStart_toStartOf="parent"
+        android:background="@mipmap/ic_next" />
+
+    <RadioGroup
+        android:id="@+id/answer_group"
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="25dp"
+        adroid:layout_constraintEnd_toEndOf="parent"
+        adroid:layout_constraintStart_toStartOf="parent"
+        adroid:layout_constraintTop_toBottomOf="@+id/question">
+
+        <RadioButton
+            android:id="@+id/answer1_radio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/answer2_radio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/answer3_radio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/answer4_radio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="RadioButton" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

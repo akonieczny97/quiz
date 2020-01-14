@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="name">Name</string>
+    <string name="type">Type</string>
+    <string name="dateTime">Date/Time</string>
+    <string name="addAppointButton">Add Appointment</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnAddAppt">Add Appointment</string>
+    <string name="entName">Enter Name</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or register</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Let me login</string>
+    <string name="btn_sign_out">Logout</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+
+    <string name="facebook_app_id">578901752878747</string>
+    <string name="fb_login_protocol_scheme">fb578901752878747</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="no_quiz">There are no quizes.</string>
+    <string name="new_quiz">Add quiz.</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_my_account">My Account</string>
+    <string name="action_logout">Logout</string>
+    <string name="correct_answer">Insert correct answer</string>
+    <string name="next_question">Next question</string>
+    <string name="prev_question">Previous question</string>
+    <string name="end_adding_question">End quiz</string>
+    <string name="search">Szukaj</string>
+    <string name="clear_search">Wyczyść</string>
+    <string name="save_question">Zapisz</string>
+    <string name="egzamin_button_text">Egzamin</string>
+    <string name="proba_button_text">Próba</string>
+    <string name="baza_button_text">Baza pytań</string>
+    <string name="question_number">Pytanie numer: 1</string>
+    <string name="question">Ile lat ma Arek?</string>
+    <string name="time">10:00</string>
+    //fragment_my_account
+    <string name="choose_photo_button">Wybierz z galerii</string>
+    <string name="change_account_settings">Zmień ustawienia konta</string>
+    <string name="name_text">Imię</string>
+    <string name="surname_text">Nazwisko</string>
+    <string name="username_text">Nazwa użytkownika</string>
+    <string name="delete_account">Usuń konto</string>
+    //account_settings
+    <string name="insert_data">Wpisz dane, które chcesz zmienić.</string>
+    <string name="repeat_password">Powtórz hasło</string>
+    <string name="save_changes">Zapisz zmiany</string>
+
+</resources>

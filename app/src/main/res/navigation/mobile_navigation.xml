@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_gallery">
+
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.event.quiz.ui.quizlist.QuizListFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_quiz_list" />
+
+
+    <fragment android:id="@+id/nav_test"
+        android:name="com.event.quiz.TestFragment"
+        tools:layout="@layout/fragment_test"
+        android:label="Test"
+        />
+
+    <fragment android:id="@+id/nav_add_quiz"
+        android:name="com.event.quiz.ui.addquiz.AddQuizFragment"
+        tools:layout="@layout/fragment_add_quiz"
+        android:label="Add Quiz"
+        />
+
+    <fragment android:id="@+id/nav_game_mode_quiz"
+        android:name="com.event.quiz.ui.choiceGameMode.GameModeFragment"
+        tools:layout="@layout/fragment_game_mode"
+        android:label="Game Modes"/>
+
+
+    <fragment android:id="@+id/nav_learn_quiz"
+        android:name="com.event.quiz.ui.learn.LearnFragment"
+        tools:layout="@layout/fragment_learn"
+        android:label="Learning"/>
+
+    <fragment android:id="@+id/nav_mock_quiz"
+        android:name="com.event.quiz.ui.mock.MockExamFragment"
+        tools:layout="@layout/fragment_mock"
+        android:label="Mock"/>
+
+    <fragment android:id="@+id/nav_exam_quiz"
+        android:name="com.event.quiz.ui.exam.ExamFragment"
+        tools:layout="@layout/fragment_exam"
+        android:label="Exam"/>
+
+    <fragment android:id="@+id/nav_my_account"
+        android:name="com.event.quiz.ui.account.MyAccountFragment"
+        tools:layout="@layout/fragment_my_account"
+        android:label="My Account"/>
+
+    <fragment android:id="@+id/nav_my_account_settings"
+        android:name="com.event.quiz.ui.account.MyAccountChangesFragment"
+        tools:layout="@layout/fragment_change_account_data"
+        android:label="My Account Settings"/>
+
+
+
+</navigation>
